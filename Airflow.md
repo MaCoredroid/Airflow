@@ -25,6 +25,6 @@ Airflow
 
 - Workflows are expected to be mostly static or slowly changing. You can think of the structure of the tasks in your workflow as slightly more dynamic than a database structure would be. Airflow workflows are expected to look similar from a run to the next, this allows for clarity around unit of work and continuity.
 
-  工作流一旦定义后则成为静态的，不会在执行时改变。
+  工作流一旦定义后则成为几乎静态的，不会在执行时有很大改变。
 
 - 
